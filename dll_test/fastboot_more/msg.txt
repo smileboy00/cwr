@@ -1,0 +1,8 @@
+Bus 002 Device 002: ID 8087:8000 Intel Corp. 
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 8087:8008 Intel Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 002: ID 04b3:3025 IBM Corp. NetVista Full Width Keyboard
+Bus 003 Device 005: ID 05c6:9025 Qualcomm, Inc. Qualcomm HSUSB Device
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
