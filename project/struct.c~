@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAXTITL 41
+#define MAXAUTL 31
+#define SIZE 20
+struct book {
+	char title[MAXTITL];
+	char author[MAXAUTL];
+	float value;
+};
+
+int mian()
+{
+	struct book library;
+	printf("Please enter the book title.\n");
+	//fgets(library.title, SIZE, stdin);//访问结构体成员 .  ->的区别？
+	printf("Now enter the author.\n");
+	//fgets(library.author, SIZE, stdin);//linux 使用gets会出错
+	printf("Now enter the value.\n");
+	//scanf("%f",&library.value);//gets 和 sacnf 的区别？
+	printf("%s by %s: $%.2f\n", library.author, library.title, library.value);
+	printf("%s: \"%s\" ($%.2f)\n", library.author, library.title, library.value);
+	
+	printf("Done.\n");
+	return 0;
+}

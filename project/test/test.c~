@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main(void)
+{
+    if(0)
+{
+    //const int a = 10;
+    int a = 10;
+    int b = 11;
+
+    a = b;
+    
+    printf("a = %d\n", a);
+}
+
+}
